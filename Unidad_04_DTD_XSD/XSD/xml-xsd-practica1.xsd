@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmins:xs="http://xs:schemaxmins:xs>/www.w3.org/2001/XML_Schema">
+<xs:element name= "elite"/>
+</xs:schema>

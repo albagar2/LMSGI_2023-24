@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Black Friday</title>
+    <meta name="description" content="¡Ofertas Black Friday!"/>
+    <meta name="Keywords" content="Electrónicos,Ropa y Accesorios, Black Friday, Descuentos, Ofertas"/>
+    <meta name="author" content="Alba García López"/>
+
+    <style type="text/css">
+        body {
+            margin: 35px;
+            padding: 5px;
+            background: #c1c7cf;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 11pt;
+            color: #000000;
+        }
+        h1 {
+            color: orange;
+        }
+        .p {
+            margin: 15px;
+        }
+        p{
+            line-height: 1.5em
+        }
+        .h2Elect {
+        color: green;
+        }
+        .h2Rop {
+            color: blue;
+        }
+        h3 {
+            color: red;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        ul {
+            list-style-type: square;
+        }
+        #electronicos {
+            background-color: rgb(221, 199, 4);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        th{
+            background-color: gray;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid rgb(75, 74, 74);
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Ofertas de Black Friday!</h1>
+    <p>Bienvenidos a nuestra página de ofertas especiales para el Black Friday. Descubre descuentos increibles en una variedad de productos</p>
+    <h2 class="h2Elect">Electrónicos</h2>
+    <p>Encuentra las mejores ofertas en electrónicos para este Black Friday.</p>
+    <h3>Teléfonos inteligentes</h3>
+    <p>Descubre descuentos exclusivos en los últimos modelos de telefonos inteligentes.</p>
+    <h2 class="h2Rop">Ropa y Accesorios</h2>
+    <p>Renueva tu armario con nuestras increibles ofertas en ropa y accesorios de moda.</p>
+
+    <hr/>
+
+    <h2 class="h2Rop"></h2>
+    <ul>
+        <li><a href="#marcadorElectronicos">Electrónicos</a></li>
+        <li><a href="#marcadorRopaYAccesorios">Ropa y Accesorios</a></li>
+    </ul>
+
+    <a name="marcadorElectronicos" ></a>
+    <h2 class="h2Rop" id="electronicos">Electrónicos</h2>
+    <p>Descubre nuestras ofertas en electrónicos y tecnología avanzada</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRezJ7c-qa8iqBYbcV_8Yi9jzBoH4SSW8cnEw&usqp=CAU"/> 
+
+    <h3>Tabletas</h3>
+    <p>¡Aprovecha los descuentos en las últimas tabletas!</p>
+
+    <h3>Teléfonos inteligentes</h3>
+    <p>Los mejores de teléfonos inteligentes a precios irresistibles</p>
+
+    <a name="marcadorRopaYAccesorios"></a>
+    <h2 class="h2Rop">Ropa y Accesorios</h2>
+    <p>Actualiza tu estilo con nuestras ofertas en ropa y accesorios de moda</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbGhY_FdlwR-JWXw784AQru4hck_YVPCY_rA&usqp=CAU"/>
+
+    
+    <table  width="100%" style="border-collapse: collapse;">
+        <caption style="text-align: center;">Ofertas destacadas</caption>
+        <tr>
+          <th>Producto</th>
+          <th colspan="2">Descuentos </th>
+        </tr>
+        <tr>
+          <td rowspan="2">Camisas</td>
+          <td>30%</td>
+          <td>¡Solo por hoy!</td></tr>
+          <td colspan="2">Variedad de colores y tallas disponibles</td>
+        </tr>  
+        <tr>
+          <td>Zapatos</td>
+          <td>20%</td>
+          <td>¡Compra dos pares y obtén un 10% adicional!</td>
+        </tr>
+      </table>
+
+    <p>Estas son algunas de las ofertas que tenemos para ti. ¡No te pierdas nuestras increibles promociones!</p>
+</body>
+</html>
