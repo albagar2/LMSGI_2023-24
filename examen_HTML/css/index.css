@@ -1,0 +1,33 @@
+.body {
+    background-color: white;
+    color: black;
+  }
+  
+  .botonEspecial {
+    background-color: #0078ff;
+    color: white;
+  }
+  
+  .cita {
+    font-style: italic;
+  }
+  
+  .portadaPrincipal {
+    font-weight: bold;
+    vertical-align: middle !important;
+    color: white;
+    font-size: 46px;
+  }
+  
+  .subtitulos {
+    color: darkgrey;
+    font-size: 18px;
+  }
+  
+  .aBetter {
+    font-weight: bold;
+    color: black;
+    font-size: 28px;
+  }
+  
+  /*# sourceMappingURL=index.css.map */  
