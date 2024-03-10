@@ -1,0 +1,33 @@
+.body {
+    background-color: white;
+    color: black;
+  }
+  
+  .botonEspecial {
+    background-color: #0078ff;
+    color: white;
+  }
+  
+  .cita {
+    background-color: gray;
+    color: white;
+  }
+
+  .portadaPrincipal {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    text-align: right;
+  }
+  
+  .subtitulos {
+    color: darkgrey;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .aBetter {
+    font-weight: bold;
+    color: black;
+    font-size: 28px;
+  }

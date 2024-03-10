@@ -1,0 +1,34 @@
+.body{
+    background-color: white;
+    color: black;
+}
+
+.botonEspecial{
+    background-color:  #0078ff;
+    color: white;
+}
+
+.cita{
+    background-color: gray;
+    color: white;
+}
+
+@mixin letra ($color,$tamanio ) {
+    color: $color ;
+    font-size: $tamanio;
+
+}
+.portadaPrincipal{
+    padding-left: 0%;
+    font-weight: bold;
+    @include letra(white,46px);
+}
+
+.subtitulos{
+    @include letra(darkgrey,18px )
+}
+
+.aBetter{
+    font-weight: bold;
+    @include letra(black,28px )
+}
